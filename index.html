@@ -6,7 +6,12 @@
 </head>
 <body>
     <script src="script.js" defer></script>
-    <input type="text" id="key">
-    <h1 id="ui"></h1>
+    <div id="lookup">
+        <h1>LOOKUP</h1>
+        <input type="text" id="key" list="keyslist">
+    </div>
+    <!-- populate when typing -->
+        <datalist id="keyslist"></datalist>
+    <h3 id="ui"></h1>
 </body>
 </html>
